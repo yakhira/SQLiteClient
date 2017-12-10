@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"EngineVersion" : "4.17.0",
+	"FriendlyName": "SQLite Client Plugin",
+	"Description": "Embed a SQLite client in your project",
+	"Category": "SQL Client Plugin",
+	"CreatedBy": "Ruslan Iakhin",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL" : "",
+	"WhitelistPlatforms": [],
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SQLiteClient",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
